@@ -1,10 +1,8 @@
 # Fashion_Captioning
 ECCV2020 paper: Fashion Captioning: Towards Generating Accurate Descriptions with Semantic Rewards. Code and Data.
-Data link: 
+To get the data, email: xuewen.yang@stonybrook.edu
 
-For any questions, email xuewen.yang@stonybrook.edu
-
-The dataset is 
+The dataset is under license in the LICENSE file.
 
 If you use this data, please cite:
 

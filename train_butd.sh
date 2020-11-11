@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES='1' python train_butd.py --cfg configs/butd.yml --id butd

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES='0' python test.py --cfg configs/sat.yml --id sat

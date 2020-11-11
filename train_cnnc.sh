@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES='0' python train_cnnc.py --cfg configs/cnnc.yml --id cnnc

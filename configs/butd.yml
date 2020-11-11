@@ -1,0 +1,6 @@
+data_folder: /home/xuewyang/Xuewen/Research/data/FACAD/jsons
+model_folder: /home/xuewyang/Xuewen/Research/model/fashion/captioning/BUTD
+word_map_file: /home/xuewyang/Xuewen/Research/data/FACAD/jsons/WORDMAP_5.json
+batch_size: 50
+max_epochs: 30
+learning_rate: 0.0004

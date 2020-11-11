@@ -1,0 +1,6 @@
+data_folder: /home/xuewyang/Xuewen/Research/data/FACAD/jsons
+model_folder: /home/xuewyang/Xuewen/Research/model/fashion/captioning/SAT2
+word_map_file: /home/xuewyang/Xuewen/Research/data/FACAD/jsons/WORDMAP_5.json
+batch_size: 50
+max_epochs: 30
+checkpoint: /home/xuewyang/Xuewen/Research/model/fashion/captioning/SAT/vanilla/BEST_checkpoint_2.pth.tar

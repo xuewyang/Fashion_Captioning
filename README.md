@@ -1,24 +1,35 @@
-# Fashion_Captioning
-ECCV2020 paper: Fashion Captioning: Towards Generating Accurate Descriptions with Semantic Rewards. Code and Data.
-To get the data, email: xuewen.yang@stonybrook.edu
+This repo contains some of the codes for the following paper [Fashion Captioning: Towards Generating Accurate Descriptions with Semantic Rewards. Code and Data.](https://arxiv.org/abs/2008.02693)
 
-The dataset is under license in the LICENSE file.
+# Special Note:
+1. This dataset is much bigger than the one used on ECCV 2020. The larger one has almost 1M images while the other one contains only about half of it (even though you might find 993K in the paper).
+2. The evaluation codes are now adopted from [self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch).
+3. Because of the two reasons above, we now should have better CIDEr scores. However, the other scores might be lower. We will try to update the scores soon.
 
-Download the json file from https://drive.google.com/file/d/1IqsiHFF3SkU6NHuaLcGByMN0-HF01dFD/view?usp=sharing
+# Codes:
+Now this repo only contains codes for [SAT](https://arxiv.org/abs/1502.03044), [BUTD](https://arxiv.org/abs/1707.07998) and [CNN-C](https://arxiv.org/abs/1711.09151) as was written in the paper.
 
-To get the data, use wget: for example, wget https://n.nordstrommedia.com/id/sr3/58d1a13f-b6b6-4e68-b2ff-3a3af47c422e.jpeg 
-Ignore the url after .jpeg to get high resolution image.
+To run the code for training, do sh train.sh. To test, sh test.sh
+# Dataset:
+To get the preprocessed data, email: [Xuewen Yang](xuewen.yang@stonybrook.edu).
 
-{'id': 122349, 'images': [{'color': 'Gold', '0': 'https://n.nordstrommedia.com/id/sr3/58d1a13f-b6b6-4e68-b2ff-3a3af47c422e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=60&h=90'}], 'title': 'chain link jeans cuff bracelet', 'description': 'subtly futuristic and edgy this liquid metal cuff bracelet is shaped from sculptural rectangular link', 'detail_info': 'DETAILS & CARE\nSubtly futuristic and edgy, this liquid-metal cuff bracelet is shaped from sculptural rectangular links.\n3/8" width\nGoldtone plate\nImported\nItem #6023768\nHelpful info:\nKeep jewelry away from water and chemicals; remove during physical activities; store separately in a soft pouch.', 'categoryid': 30, 'category': 'bracelet', 'attr': ['nah', 'nah', 'nah', 'nah', 'nah', 'nah', 'metal', 'cuff', 'nah', 'nah', 'shaped', 'nah', 'nah', 'rectangular', 'link'], 'attrid': [0, 0, 0, 0, 0, 0, 770, 282, 0, 0, 654, 0, 0, 196, 1]}
+If you want to download the original dataset (some data might be missing), you can:
+1. First download the json file from [here](https://drive.google.com/file/d/1IqsiHFF3SkU6NHuaLcGByMN0-HF01dFD/view?usp=sharing).
+2. Then use wget or other download scripts. For example, wget https://n.nordstrommedia.com/id/sr3/58d1a13f-b6b6-4e68-b2ff-3a3af47c422e.jpeg
+Remember to ignore anything after .jpeg in the url to get high resolution images, otherwise, very low resolution images are downloaded.
+3. Sometimes the description is no longer available, we can retrieve it from the 'detail_info' part.
 
-Sometimes the description is no longer available, we can retrieve it from the 'detail_info' part.
+# License:
+1. The dataset is under license in the LICENSE file.
+2. No commercial use.
 
+# Citation:
 If you use this data, please cite:
-
+```
 @inproceedings{XuewenECCV20Fashion,
 Author = {Xuewen Yang and Heming Zhang and Di Jin and Yingru Liu and Chi-Hao Wu and Jianchao Tan and Dongliang Xie and Jue Wang and Xin Wang},
 Title = {Fashion Captioning: Towards Generating Accurate Descriptions with Semantic Rewards},
 booktitle = {ECCV},
 Year = {2020}
 }
+```
 

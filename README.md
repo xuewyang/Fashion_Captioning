@@ -10,7 +10,7 @@ Now this repo only contains codes for [SAT](https://arxiv.org/abs/1502.03044), [
 
 To run the code for training, do sh train.sh. To test, sh test.sh
 # Dataset:
-To get the preprocessed data, email: [Xuewen Yang](xuewen.yang@stonybrook.edu).
+To get the preprocessed data, email: Xuewen Yang @ xuewen.yang@stonybrook.edu.
 
 If you want to download the original dataset (some data might be missing), you can:
 1. First download the json file from [here](https://drive.google.com/file/d/1IqsiHFF3SkU6NHuaLcGByMN0-HF01dFD/view?usp=sharing).

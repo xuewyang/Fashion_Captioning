@@ -8,6 +8,8 @@ This repo contains some of the codes for the following paper [Fashion Captioning
 # Codes:
 Now this repo only contains codes for [SAT](https://arxiv.org/abs/1502.03044), [BUTD](https://arxiv.org/abs/1707.07998) and [CNN-C](https://arxiv.org/abs/1711.09151) as was written in the paper.
 
+evalcap folder can be downloaded from [here](https://drive.google.com/file/d/1Y2h7Q_3l3DOR7WKXk_N5SKdAkcHUxQ6F/view?usp=sharing).
+
 To run the code for training, do sh train.sh. To test, sh test.sh
 # Dataset:
 To get the preprocessed data, email: Xuewen Yang @ xuewen.yang@stonybrook.edu.

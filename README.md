@@ -11,8 +11,12 @@ Now this repo only contains codes for [SAT](https://arxiv.org/abs/1502.03044), [
 evalcap folder can be downloaded from [here](https://drive.google.com/file/d/1Y2h7Q_3l3DOR7WKXk_N5SKdAkcHUxQ6F/view?usp=sharing).
 
 To run the code for training, do sh train.sh. To test, sh test.sh
+
+I kept having bad results for CNN-C model, with all the generations in the val set be the same. I had the same issue when I tried to adopt from [self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch). This never happened before when I ran the experiments for the ECCV paper. I really appreciate if anyone find the reason why this happened.
 # Dataset:
-To get the preprocessed data, email: Xuewen Yang @ xuewen.yang@stonybrook.edu.
+To get the preprocessed data, use [this](https://drive.google.com/drive/folders/1cgdHt8AlBukmPhuSzUTPszYPXAYmg6gy?usp=sharing) or email: Xuewen Yang @ xuewen.yang@stonybrook.edu if you need the raw data.
+
+For other issues, please create an issue on this repo.
 
 If you want to download the original dataset (some data might be missing), you can:
 1. First download the json file from [here](https://drive.google.com/file/d/1IqsiHFF3SkU6NHuaLcGByMN0-HF01dFD/view?usp=sharing).

@@ -1,0 +1,6 @@
+_BASE_: updown_long.yml
+self_critical_after: -1
+structure_after: 40
+train_sample_n: 5
+structure_loss_weight: 1
+structure_loss_type: new_self_critical

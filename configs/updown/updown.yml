@@ -1,0 +1,21 @@
+# base
+caption_model: updown
+learning_rate: 0.0005
+scheduled_sampling_start: 0
+# checkpoint_path: $ckpt_path
+# $start_from
+language_eval: 1
+save_checkpoint_every: 50
+val_images_use: 50
+rnn_size: 512
+input_encoding_size: 512
+att_feat_size: 2048
+att_hid_size: 512
+
+train_sample_n: 5
+self_critical_after: -1
+batch_size: 5
+learning_rate_decay_start: 0
+max_epochs: 30
+checkpoint_path: /home/xuewyang/Xuewen/Research/model/fashion/captioning/updown
+data_folder: /home/xuewyang/Xuewen/Research/data/FACAD/images/
